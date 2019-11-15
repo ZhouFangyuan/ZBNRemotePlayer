@@ -1,0 +1,495 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F411B7B6237EC5E900215486 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F411B7B5237EC5E900215486 /* AppDelegate.m */; };
+		F411B7B9237EC5E900215486 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F411B7B8237EC5E900215486 /* ViewController.m */; };
+		F411B7BC237EC5E900215486 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F411B7BA237EC5E900215486 /* Main.storyboard */; };
+		F411B7BE237EC5F300215486 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F411B7BD237EC5F300215486 /* Assets.xcassets */; };
+		F411B7C1237EC5F400215486 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F411B7BF237EC5F400215486 /* LaunchScreen.storyboard */; };
+		F411B7C4237EC5F400215486 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F411B7C3237EC5F400215486 /* main.m */; };
+		F411B7CE237EC5F400215486 /* ZBNRemotePlayerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F411B7CD237EC5F400215486 /* ZBNRemotePlayerTests.m */; };
+		F411B7E1237EC65600215486 /* ZBNAudioDownLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = F411B7D9237EC65500215486 /* ZBNAudioDownLoader.m */; };
+		F411B7E3237EC65600215486 /* ZBNResourceLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = F411B7DC237EC65500215486 /* ZBNResourceLoader.m */; };
+		F411B7E4237EC65600215486 /* ZBNAudioFileTool.m in Sources */ = {isa = PBXBuildFile; fileRef = F411B7DE237EC65600215486 /* ZBNAudioFileTool.m */; };
+		F411B7E7237EC66A00215486 /* ZBNRemotePlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = F411B7E6237EC66A00215486 /* ZBNRemotePlayer.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F411B7CA237EC5F400215486 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F411B7A9237EC5E900215486 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F411B7B0237EC5E900215486;
+			remoteInfo = ZBNRemotePlayer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F411B7B1237EC5E900215486 /* ZBNRemotePlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZBNRemotePlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F411B7B4237EC5E900215486 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F411B7B5237EC5E900215486 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F411B7B7237EC5E900215486 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F411B7B8237EC5E900215486 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F411B7BB237EC5E900215486 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F411B7BD237EC5F300215486 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F411B7C0237EC5F400215486 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F411B7C2237EC5F400215486 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F411B7C3237EC5F400215486 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F411B7C9237EC5F400215486 /* ZBNRemotePlayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZBNRemotePlayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F411B7CD237EC5F400215486 /* ZBNRemotePlayerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZBNRemotePlayerTests.m; sourceTree = "<group>"; };
+		F411B7CF237EC5F400215486 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F411B7D9237EC65500215486 /* ZBNAudioDownLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZBNAudioDownLoader.m; sourceTree = "<group>"; };
+		F411B7DC237EC65500215486 /* ZBNResourceLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZBNResourceLoader.m; sourceTree = "<group>"; };
+		F411B7DD237EC65500215486 /* ZBNAudioDownLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBNAudioDownLoader.h; sourceTree = "<group>"; };
+		F411B7DE237EC65600215486 /* ZBNAudioFileTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZBNAudioFileTool.m; sourceTree = "<group>"; };
+		F411B7DF237EC65600215486 /* ZBNResourceLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBNResourceLoader.h; sourceTree = "<group>"; };
+		F411B7E0237EC65600215486 /* ZBNAudioFileTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBNAudioFileTool.h; sourceTree = "<group>"; };
+		F411B7E5237EC66A00215486 /* ZBNRemotePlayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZBNRemotePlayer.h; sourceTree = "<group>"; };
+		F411B7E6237EC66A00215486 /* ZBNRemotePlayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZBNRemotePlayer.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F411B7AE237EC5E900215486 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F411B7C6237EC5F400215486 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F411B7A8237EC5E900215486 = {
+			isa = PBXGroup;
+			children = (
+				F411B7B3237EC5E900215486 /* ZBNRemotePlayer */,
+				F411B7CC237EC5F400215486 /* ZBNRemotePlayerTests */,
+				F411B7B2237EC5E900215486 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F411B7B2237EC5E900215486 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F411B7B1237EC5E900215486 /* ZBNRemotePlayer.app */,
+				F411B7C9237EC5F400215486 /* ZBNRemotePlayerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F411B7B3237EC5E900215486 /* ZBNRemotePlayer */ = {
+			isa = PBXGroup;
+			children = (
+				F411B7D8237EC63300215486 /* CLasses */,
+				F411B7B4237EC5E900215486 /* AppDelegate.h */,
+				F411B7B5237EC5E900215486 /* AppDelegate.m */,
+				F411B7B7237EC5E900215486 /* ViewController.h */,
+				F411B7B8237EC5E900215486 /* ViewController.m */,
+				F411B7BA237EC5E900215486 /* Main.storyboard */,
+				F411B7BD237EC5F300215486 /* Assets.xcassets */,
+				F411B7BF237EC5F400215486 /* LaunchScreen.storyboard */,
+				F411B7C2237EC5F400215486 /* Info.plist */,
+				F411B7C3237EC5F400215486 /* main.m */,
+			);
+			path = ZBNRemotePlayer;
+			sourceTree = "<group>";
+		};
+		F411B7CC237EC5F400215486 /* ZBNRemotePlayerTests */ = {
+			isa = PBXGroup;
+			children = (
+				F411B7CD237EC5F400215486 /* ZBNRemotePlayerTests.m */,
+				F411B7CF237EC5F400215486 /* Info.plist */,
+			);
+			path = ZBNRemotePlayerTests;
+			sourceTree = "<group>";
+		};
+		F411B7D8237EC63300215486 /* CLasses */ = {
+			isa = PBXGroup;
+			children = (
+				F411B7DD237EC65500215486 /* ZBNAudioDownLoader.h */,
+				F411B7D9237EC65500215486 /* ZBNAudioDownLoader.m */,
+				F411B7E0237EC65600215486 /* ZBNAudioFileTool.h */,
+				F411B7DE237EC65600215486 /* ZBNAudioFileTool.m */,
+				F411B7DF237EC65600215486 /* ZBNResourceLoader.h */,
+				F411B7DC237EC65500215486 /* ZBNResourceLoader.m */,
+				F411B7E5237EC66A00215486 /* ZBNRemotePlayer.h */,
+				F411B7E6237EC66A00215486 /* ZBNRemotePlayer.m */,
+			);
+			path = CLasses;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F411B7B0237EC5E900215486 /* ZBNRemotePlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F411B7D2237EC5F400215486 /* Build configuration list for PBXNativeTarget "ZBNRemotePlayer" */;
+			buildPhases = (
+				F411B7AD237EC5E900215486 /* Sources */,
+				F411B7AE237EC5E900215486 /* Frameworks */,
+				F411B7AF237EC5E900215486 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZBNRemotePlayer;
+			productName = ZBNRemotePlayer;
+			productReference = F411B7B1237EC5E900215486 /* ZBNRemotePlayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F411B7C8237EC5F400215486 /* ZBNRemotePlayerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F411B7D5237EC5F400215486 /* Build configuration list for PBXNativeTarget "ZBNRemotePlayerTests" */;
+			buildPhases = (
+				F411B7C5237EC5F400215486 /* Sources */,
+				F411B7C6237EC5F400215486 /* Frameworks */,
+				F411B7C7237EC5F400215486 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F411B7CB237EC5F400215486 /* PBXTargetDependency */,
+			);
+			name = ZBNRemotePlayerTests;
+			productName = ZBNRemotePlayerTests;
+			productReference = F411B7C9237EC5F400215486 /* ZBNRemotePlayerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F411B7A9237EC5E900215486 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "周芳圆";
+				TargetAttributes = {
+					F411B7B0237EC5E900215486 = {
+						CreatedOnToolsVersion = 10.2;
+					};
+					F411B7C8237EC5F400215486 = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = F411B7B0237EC5E900215486;
+					};
+				};
+			};
+			buildConfigurationList = F411B7AC237EC5E900215486 /* Build configuration list for PBXProject "ZBNRemotePlayer" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F411B7A8237EC5E900215486;
+			productRefGroup = F411B7B2237EC5E900215486 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F411B7B0237EC5E900215486 /* ZBNRemotePlayer */,
+				F411B7C8237EC5F400215486 /* ZBNRemotePlayerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F411B7AF237EC5E900215486 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F411B7C1237EC5F400215486 /* LaunchScreen.storyboard in Resources */,
+				F411B7BE237EC5F300215486 /* Assets.xcassets in Resources */,
+				F411B7BC237EC5E900215486 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F411B7C7237EC5F400215486 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F411B7AD237EC5E900215486 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F411B7B9237EC5E900215486 /* ViewController.m in Sources */,
+				F411B7C4237EC5F400215486 /* main.m in Sources */,
+				F411B7E3237EC65600215486 /* ZBNResourceLoader.m in Sources */,
+				F411B7E1237EC65600215486 /* ZBNAudioDownLoader.m in Sources */,
+				F411B7B6237EC5E900215486 /* AppDelegate.m in Sources */,
+				F411B7E4237EC65600215486 /* ZBNAudioFileTool.m in Sources */,
+				F411B7E7237EC66A00215486 /* ZBNRemotePlayer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F411B7C5237EC5F400215486 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F411B7CE237EC5F400215486 /* ZBNRemotePlayerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F411B7CB237EC5F400215486 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F411B7B0237EC5E900215486 /* ZBNRemotePlayer */;
+			targetProxy = F411B7CA237EC5F400215486 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F411B7BA237EC5E900215486 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F411B7BB237EC5E900215486 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F411B7BF237EC5F400215486 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F411B7C0237EC5F400215486 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F411B7D0237EC5F400215486 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F411B7D1237EC5F400215486 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F411B7D3237EC5F400215486 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZBNRemotePlayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = zbn.com.ZBNRemotePlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F411B7D4237EC5F400215486 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZBNRemotePlayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = zbn.com.ZBNRemotePlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F411B7D6237EC5F400215486 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZBNRemotePlayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = zbn.com.ZBNRemotePlayerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZBNRemotePlayer.app/ZBNRemotePlayer";
+			};
+			name = Debug;
+		};
+		F411B7D7237EC5F400215486 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZBNRemotePlayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = zbn.com.ZBNRemotePlayerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZBNRemotePlayer.app/ZBNRemotePlayer";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F411B7AC237EC5E900215486 /* Build configuration list for PBXProject "ZBNRemotePlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F411B7D0237EC5F400215486 /* Debug */,
+				F411B7D1237EC5F400215486 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F411B7D2237EC5F400215486 /* Build configuration list for PBXNativeTarget "ZBNRemotePlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F411B7D3237EC5F400215486 /* Debug */,
+				F411B7D4237EC5F400215486 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F411B7D5237EC5F400215486 /* Build configuration list for PBXNativeTarget "ZBNRemotePlayerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F411B7D6237EC5F400215486 /* Debug */,
+				F411B7D7237EC5F400215486 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F411B7A9237EC5E900215486 /* Project object */;
+}
